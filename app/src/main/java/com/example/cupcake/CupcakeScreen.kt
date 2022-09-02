@@ -80,8 +80,9 @@ fun CupcakeAppBar(
 }
 
 @Composable
-fun CupcakeApp(modifier: Modifier = Modifier, viewModel: OrderViewModel = viewModel()){
-    val navController = rememberNavController()
+fun CupcakeApp(modifier: Modifier = Modifier,
+               viewModel: OrderViewModel = viewModel(),
+               navController: NavHostController = rememberNavController()) {
     // HOWTO track the navigation backstack
     val backStackEntry by navController.currentBackStackEntryAsState()
     // Get the name of the current screen
