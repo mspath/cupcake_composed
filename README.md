@@ -26,7 +26,7 @@ Environment
 
 ```
 language: kotlin
-repo: cupcake_recomposed
+repo: cupcake_composed
 status: archived
 updated: 2023-03-29
 ```
