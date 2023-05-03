@@ -17,10 +17,10 @@ This app is based on the [Navigate between screens with Compose] Codelab.
 
 Environment
 
-- Kotlin 1.8.0
-- Android Studio Electric Eel 2022.1.1
-- Gradle Plugin 7.4.2
-- Compose 1.4.0
+- Kotlin 1.8.20
+- Android Studio FLamingo 2022.2.1
+- Gradle Plugin 8.0.0
+- Compose BOM 2023.04.01
 
 ----
 
